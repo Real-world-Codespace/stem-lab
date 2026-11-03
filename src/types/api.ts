@@ -6,7 +6,7 @@ export interface HealthRead {
   status: string;
   app_name: string;
   environment: string;
-  ai_provider: "huggingface";
+  ai_provider: "openai";
   execution_mode: string;
   model_id: string;
   model_ready: boolean;

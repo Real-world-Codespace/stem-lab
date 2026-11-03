@@ -368,7 +368,7 @@ export default function Home() {
           <div className="topActions">
             <div className={`modelStatus ${modelReady ? "modelStatusReady" : ""}`}>
               <span />
-              {health ? (modelReady ? "Hugging Face sẵn sàng" : "Cần HF token") : "Backend offline"}
+              {health ? (modelReady ? "OpenAI sẵn sàng" : "Cần OpenAI API key") : "Backend offline"}
             </div>
             <div className="streak">
               <Sparkles size={16} />
